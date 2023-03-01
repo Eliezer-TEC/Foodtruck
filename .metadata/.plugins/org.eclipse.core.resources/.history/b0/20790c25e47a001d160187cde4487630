@@ -1,0 +1,14 @@
+package view;
+
+import model.vo.UsuarioVO;
+
+public class MenuVenda {
+
+	public void apresentarMenuVenda(UsuarioVO usuarioVO) {
+		private static final int OPCAO_MENU_CADASTRAR_VENDA = 1;
+		private static final int OPCAO_MENU_CANCELAR_VENDA = 2 ;
+		private static final int OPCAO_MENU_SITUACAO_VENDA = 3;
+		private static final int OPCAO_MENU_VENDA_VOLTAR = 4;
+	}
+
+}

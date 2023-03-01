@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
+    <fullyQualifiedTypeName name="model.vo.TipoProdutoVO"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping"/>
+    <fullyQualifiedTypeName name="controller.UsuarioController"/>
+    <fullyQualifiedTypeName name="java.lang.Error"/>
+    <fullyQualifiedTypeName name="model.vo.UsuarioVO"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="model.dao.ProdutoDAO"/>
+    <fullyQualifiedTypeName name="model.bo.ProdutoBO"/>
+    <fullyQualifiedTypeName name="controller.ProdutoController"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="model.vo.TipoUsuarioVO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.vo.ProdutoVO"/>
+    <fullyQualifiedTypeName name="model.dao.VendaDAO"/>
+    <fullyQualifiedTypeName name="model.vo.EntregaVO"/>
+    <fullyQualifiedTypeName name="model.vo.SituacaoEntregaVO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="model.vo.VendaVO"/>
+    <fullyQualifiedTypeName name="model.reports.RelatorioJasper"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.security.Policy.Parameters"/>
+    <fullyQualifiedTypeName name="net.sf.jasperreports.engine.JasperRunManager"/>
+    <fullyQualifiedTypeName name="model.dao.Banco"/>
+    <fullyQualifiedTypeName name="net.sf.jasperreports.engine.JRException"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+</qualifiedTypeNameHistroy>

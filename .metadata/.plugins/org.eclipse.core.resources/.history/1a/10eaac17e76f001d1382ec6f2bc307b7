@@ -1,0 +1,16 @@
+package model.dao;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+import model.dto.VendasCanceladasDTO;
+
+public class RelatorioDAO {
+
+	public ArrayList<VendasCanceladasDTO> gerarRelatorioVendasCanceladasDAO() {
+		Connection conn = Banco.getConnection();
+		Statement stmt = Banco.getStatement(conn);
+		return null;
+	}
+
+}

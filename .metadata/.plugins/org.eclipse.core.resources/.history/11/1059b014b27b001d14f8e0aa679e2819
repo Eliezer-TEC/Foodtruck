@@ -1,0 +1,36 @@
+package model.reports;
+
+import java.io.File;
+import java.io.IOException;
+import java.security.Policy.Parameters;
+import java.util.HashMap;
+
+import model.vo.VendaVO;
+
+public class RelatorioJasper {
+
+	public void gerarRelatorioListaPedidosJasper() {
+		
+	}
+
+	public void gerarRelatorioAcompanhamentoPedidosJasper(VendaVO vendaVO) {
+		try {
+			String currentPath = "";
+			try {
+				currentPath = new File(".").getCanonicalPath();
+			} catch (IOException e) {
+				System.out.println(e.toString());
+			}
+			System.out.println(currentPath);
+			HashMap<String, Object> parameteres = new HashMap<String, Object>();
+			parameteres.put("IDVENDA", vendaVO.getIdVenda());
+		}
+		
+	}
+
+	public void gerarRelatorioEtiquetaEntregadoJasper(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

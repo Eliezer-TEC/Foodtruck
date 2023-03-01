@@ -1,0 +1,20 @@
+package model.reports;
+
+public class RelatorioJasper {
+
+	public void gerarRelatorioListaPedidosDAO() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void gerarRelatorioAcompanhamentoPedidosDAO() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void gerarRelatorioEtiquetaEntregadoDAO() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

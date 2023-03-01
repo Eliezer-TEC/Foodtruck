@@ -1,0 +1,33 @@
+package model.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import model.dto.VendasCanceladasDTO;
+
+public class RelatorioDAO {
+
+	public ArrayList<VendasCanceladasDTO> gerarRelatorioVendasCanceladasDAO() {
+		Connection conn = Banco.getConnection();
+		Statement stmt = Banco.getStatement(conn);
+		ResultSet resultado = null;
+		ArrayList<VendasCanceladasDTO> vendaCanceladasDTO = new ArrayList<VendasCanceladasDTO>();
+		String query = "";
+		
+		try {
+			stmt.executeQuery(query);
+		} catch (SQLException erro) {
+			System.out.println("Erro ao executar e query do método gerarRelatorioVendasCanceladasDAO");
+			System.out.println("Erro: " + erro.getMessage());
+		} finally {
+			Banco.closeResultSet(resultado);
+			Banco.closeStatement(stmt);
+			Banco.closeConnection(conn);
+		}
+		return vendaCanceladasDTO;
+	}
+
+}

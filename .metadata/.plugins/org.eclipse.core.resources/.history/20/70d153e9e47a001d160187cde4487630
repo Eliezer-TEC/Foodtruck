@@ -1,0 +1,46 @@
+package view;
+
+import java.util.Scanner;
+
+import model.vo.TipoUsuarioVO;
+import model.vo.UsuarioVO;
+
+public class MenuVenda {
+	private static final int OPCAO_MENU_CADASTRAR_VENDA = 1;
+	private static final int OPCAO_MENU_CANCELAR_VENDA = 2;
+	private static final int OPCAO_MENU_SITUACAO_VENDA = 3;
+	private static final int OPCAO_MENU_VENDA_VOLTAR = 9;
+
+	private static int NUMERO_PEDIDO = 5;
+	private static double PERCENTUAL = 0.05;
+	Scanner teclado = new Scanner(System.in);
+
+	public void apresentarMenuVenda(UsuarioVO usuarioVO) {
+		int opcao = this.apresentarOpcoesVenda(usuarioVO);
+		while (opcao != OPCAO_MENU_VENDA_VOLTAR) {
+			switch (opcao) {
+			case OPCAO_MENU_CADASTRAR_VENDA: {
+				if(!usuarioVO.getTipoUsuario().equals(TipoUsuarioVO.ENTREGADOR)){
+					this.cadastrarVenda(usuarioVO);
+					break;
+				}
+			}
+			case OPCAO_MENU_CANCELAR_VENDA:{
+				if(!usuarioVO.getTipoUsuario().equals(TipoUsuarioVO.ENTREGADOR)) {
+					this.cadastrarVenda(usuarioVO);
+				}
+				break;
+			}
+			case OPCAO_MENU_SITUACAO_VENDA:{
+				
+			}
+			}
+		}
+	}
+
+	private int apresentarOpcoesVenda(UsuarioVO usuarioVO) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

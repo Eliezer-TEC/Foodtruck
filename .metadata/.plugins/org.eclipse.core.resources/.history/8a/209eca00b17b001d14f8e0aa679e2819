@@ -1,0 +1,28 @@
+package model.reports;
+
+import java.io.IOException;
+
+import model.vo.VendaVO;
+
+public class RelatorioJasper {
+
+	public void gerarRelatorioListaPedidosDAO() {
+		try {
+			String currentPath = "";
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+	public void gerarRelatorioAcompanhamentoPedidosDAO(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void gerarRelatorioEtiquetaEntregadoDAO(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

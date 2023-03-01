@@ -1,0 +1,31 @@
+package controller;
+
+import java.util.ArrayList;
+
+import model.bo.RelatorioBO;
+import model.dto.VendasCanceladasDTO;
+import model.vo.VendaVO;
+
+public class RelatorioController {
+
+	public ArrayList<VendasCanceladasDTO> gerarRelatorioVendasCanceladasController() {
+		RelatorioBO relatorioBO = new RelatorioBO();
+		return relatorioBO.gerarRelatorioVendasCanceladasBO();
+	}
+
+	public void gerarRelatorioListaPedidosController() {
+
+		
+	}
+
+	public void gerarRelatorioAcompanhamentoPedidosController(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void gerarRelatorioEtiquetaEntregadorController(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

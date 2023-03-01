@@ -1,0 +1,14 @@
+package model.bo;
+
+import java.util.ArrayList;
+
+import model.dto.VendasCanceladasDTO;
+
+public class RelatorioBO {
+
+	public ArrayList<VendasCanceladasDTO> gerarRelatorioVendasCanceladasBO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

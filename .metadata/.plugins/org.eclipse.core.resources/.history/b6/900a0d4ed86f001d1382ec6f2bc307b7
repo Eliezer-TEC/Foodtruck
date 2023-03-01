@@ -1,0 +1,23 @@
+package view;
+
+import java.util.Scanner;
+
+public class MenuRelatorio {
+
+	private static final int OPCAO_MENU_RELATORIO_VENDAS_CANCELADAS = 1;
+	private static final int OPCAO_MENU_VOLTAR = 9;
+		
+	Scanner teclado = new Scanner (System.in);
+	public void apresentarMenuRelatorio() {
+		int opcao = this.apresentarOpcoesMenu();
+	}
+	private int apresentarOpcoesMenu() {
+		System.out.println("\n---------- Sistema FoodTruck ----------");
+		System.out.println("---------- Menu de Relatórios ----------");
+		System.out.println("\nOpções: ");
+		System.out.println(OPCAO_MENU_RELATORIO_VENDAS_CANCELADAS + "Relatório de Vendas Canceladas: ");
+		System.out.println(OPCAO_MENU_VOLTAR + "Voltar");
+		return 0;
+	}
+
+}

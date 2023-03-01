@@ -1,0 +1,31 @@
+package model.bo;
+
+import java.util.ArrayList;
+
+import model.dao.RelatorioDAO;
+import model.dto.VendasCanceladasDTO;
+import model.vo.VendaVO;
+
+public class RelatorioBO {
+
+	public ArrayList<VendasCanceladasDTO> gerarRelatorioVendasCanceladasBO() {
+		RelatorioDAO relatorioDAO = new RelatorioDAO();
+		return relatorioDAO.gerarRelatorioVendasCanceladasDAO();
+	}
+
+	public Object gerarRelatorioListaPedidosBO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object gerarRelatorioAcompanhamentoPedidosBO(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object RelatorioEtiquetaEntregadoBO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

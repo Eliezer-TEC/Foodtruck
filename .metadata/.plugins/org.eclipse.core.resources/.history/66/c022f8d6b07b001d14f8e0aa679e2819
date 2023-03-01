@@ -1,0 +1,22 @@
+package model.reports;
+
+import model.vo.VendaVO;
+
+public class RelatorioJasper {
+
+	public void gerarRelatorioListaPedidosDAO() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void gerarRelatorioAcompanhamentoPedidosDAO(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void gerarRelatorioEtiquetaEntregadoDAO(VendaVO vendaVO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
